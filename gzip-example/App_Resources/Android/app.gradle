@@ -17,6 +17,7 @@ android {
     versionName "1.0.0"
     
     generatedDensities = []
+    multiDexEnabled true
   }
 
   aaptOptions {
