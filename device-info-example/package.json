@@ -1,24 +1,19 @@
 {
-  "name": "gzip-example",
-  "main": "app/app.ts",
+  "name": "device-info-example",
+  "main": "app/app.js",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@nativescript/core": "~8.4.0",
     "@nativescript/theme": "~3.0.2",
     "@open-native/core": "^1.0.0-alpha.22",
-    "react-native-gzip": "^1.0.0",
-    "svelte-native": "~1.0.0"
+    "nativescript-vue": "~2.9.2",
+    "react-native-device-info": "^10.3.0"
   },
   "devDependencies": {
     "@nativescript/android": "8.4.0",
     "@nativescript/ios": "8.4.1",
-    "@nativescript/types": "~8.4.0",
     "@nativescript/webpack": "~5.0.12",
-    "svelte": "~3.44.0",
-    "svelte-loader": "^3.1.2",
-    "svelte-native-preprocessor": "^1.0.0",
-    "svelte-preprocess": "^4.7.0",
-    "typescript": "~4.8.4"
+    "nativescript-vue-template-compiler": "~2.9.2"
   }
 }
