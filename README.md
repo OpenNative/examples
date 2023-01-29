@@ -2,6 +2,8 @@
 
 Examples of react native modules working in NativeScript apps with Open Native.
 
+## How to run
+
 To run any of the examples, first clone this repo
 
 ```
