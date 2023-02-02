@@ -6,7 +6,7 @@
   "dependencies": {
     "@nativescript/core": "~8.4.0",
     "@nativescript/theme": "~3.0.2",
-    "@open-native/core": "^1.0.0-alpha.22",
+    "@open-native/core": "^1.0.0-alpha.23",
     "nativescript-vue": "~2.9.2",
     "react-native-device-info": "^10.3.0"
   },
