@@ -46,10 +46,6 @@
 </page>
 
 <style>
-  .info .fas {
-    color: #3a53ff;
-  }
-
   .btn {
     background-color: #3a53ff;
     color: white;
