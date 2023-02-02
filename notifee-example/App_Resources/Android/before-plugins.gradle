@@ -1,0 +1,28 @@
+apply from: new File(["node", "--print", "require.resolve('@open-native/core/package.json')"].execute(null, rootDir).text.trim(), "../scripts/open-native.gradle");
+// this configurations is loaded before building plugins, as well as before building
+// the app - this is where you can apply global settings and overrides
+def notifeeDir = new File(["node", "--print", "require.resolve('@notifee/react-native/package.json')"].execute(null, rootDir).text.trim()).parentFile
+// Provide @notifee/core
+println(notifeeDir.absolutePath)
+
+rootProject.allprojects {
+  repositories {
+    maven {
+      url "$notifeeDir/android/libs"
+    }
+  }
+}
+
+project.ext {
+  compileSdkVersion = 33
+  // androidXAppCompat = "1.4.1"
+  // androidXExifInterface = "1.3.3"
+  // androidXFragment = "1.4.1"
+  // androidXMaterial = "1.5.0"
+  // androidXMultidex = "2.0.1"
+  // androidXTransition = "1.4.1"
+  // androidXViewPager = "1.0.0"
+
+  // useKotlin = true
+  // kotlinVersion = "1.6.0"
+}
