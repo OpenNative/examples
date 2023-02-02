@@ -1,4 +1,4 @@
-[Notifee](https://notifee.app) example
+# [Notifee](https://notifee.app) example
 
 An example app running Notifee notifications library on android & ios in NativeScript.
 
