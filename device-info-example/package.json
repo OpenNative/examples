@@ -4,11 +4,14 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "@nativescript-dom/core-types": "^1.0.7",
+    "@nativescript-dom/vue-types": "^1.0.7",
     "@nativescript/core": "~8.4.0",
     "@nativescript/theme": "~3.0.2",
     "@open-native/core": "^1.0.0-alpha.23",
-    "nativescript-vue": "~2.9.2",
-    "react-native-device-info": "^10.3.0"
+    "nativescript-vue": "2.9.2",
+    "react-native-device-info": "^10.3.0",
+    "vue": "^2.6.6"
   },
   "devDependencies": {
     "@nativescript/android": "8.4.0",

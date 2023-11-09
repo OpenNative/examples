@@ -1,5 +1,8 @@
 <template>
     <Page>
+        <action-bar>
+
+        </action-bar>
         <ActionBar>
             <Label text="DeviceInfo example"/>
         </ActionBar>
@@ -13,7 +16,7 @@
     </Page>
 </template>
 
-<script>
+<script lang="ts">
   import { getApplicationName, getVersion, getCarrierSync } from "react-native-device-info";
   export default {
     computed: {
